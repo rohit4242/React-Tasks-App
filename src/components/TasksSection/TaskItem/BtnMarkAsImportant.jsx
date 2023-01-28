@@ -18,7 +18,7 @@ const BtnMarkAsImportant = ({ taskId, taskImportant }) => {
     >
       <StarLine
         className={`w-5 h-5 sm:w-6 sm:h-6 ${
-          taskImportant ? "fill-rose-500 stroke-rose-500 " : "fill-none"
+          taskImportant ? "fill-emerald-300 stroke-emerald-300 " : "fill-none"
         }`}
       />
     </button>

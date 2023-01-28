@@ -22,7 +22,7 @@ const App = () => {
   }
 
   return (
-    <div className="bg-slate-200 min-h-screen text-slate-600 dark:bg-slate-900 dark:text-slate-400 xl:text-base sm:text-sm text-xs">
+    <div className="bg-[#c4d1e1] min-h-screen text-slate-600 dark:bg-slate-900 dark:text-slate-400 xl:text-lg sm:text-base text-base">
       {modal.modalCreateTaskOpen && (
         <ModalCreateTask
           onClose={closeModalCreateTask}

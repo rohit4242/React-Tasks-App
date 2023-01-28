@@ -34,9 +34,9 @@ const AccountData = () => {
         <DeleteTasks />
         <a
           href="https://github.com/rohit4242"
-          className="mt-4 bg-rose-100 p-2 rounded-md text-rose-600 text-center transition hover:bg-rose-200 dark:bg-slate-700/[.3] dark:text-slate-200"
+          className="mt-4 bg-[#00B3B2] p-2 rounded-md text-center transition hover:bg-[#009F9F] text-slate-200"
         >
-          Projected by Rohit Luni
+          Made by Rohit Luni
         </a>
       </section>
     </LayoutMenus>

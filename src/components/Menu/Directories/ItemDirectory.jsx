@@ -59,7 +59,7 @@ const ItemDirectory = ({ dir, classActive }) => {
         <NavLink
           to={`/dir/${dir}`}
           title={dir}
-          className="hover:text-rose-600 dark:hover:text-slate-200 transition text-ellipsis whitespace-nowrap overflow-hidden max-w-[7rem]"
+          className="hover:text-[#009F9F] dark:hover:text-slate-200 transition text-ellipsis whitespace-nowrap overflow-hidden max-w-[7rem]"
         >
           {dir}
         </NavLink>

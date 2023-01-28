@@ -10,7 +10,7 @@ const TaskItem = ({ isListInView1, task }) => {
         <Link
           to={`/dir/${task.dir}`}
           title={task.dir}
-          className="ml-auto mr-4 w-min whitespace-nowrap overflow-hidden max-w-[10rem] text-center text-ellipsis bg-rose-200 text-rose-600 px-4 py-1 rounded-t-md transition dark:bg-slate-700 dark:text-slate-200 block hover:bg-rose-300 dark:hover:bg-rose-500"
+          className="ml-auto mr-4 w-min whitespace-nowrap overflow-hidden max-w-[10rem] text-center text-ellipsis bg-[#e4ecef] text-slate-500 px-4 py-1 rounded-t-md transition dark:bg-slate-700 dark:text-slate-200 block hover:bg-[#F3F7F8] dark:hover:bg-slate-600"
         >
           {task.dir}
         </Link>
